@@ -1,0 +1,53 @@
+body {
+	font-size: 1.3em;
+    text-align: center;
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+#background-image {
+    margin: auto;
+    width: 100%;
+    height: auto;
+}
+.list-group {
+    width: 50%;
+    margin: auto;
+}
+.list-group > li {
+    text-align: left;
+}
+.badge {
+    text-align: right;
+}
+/* #wrapper {
+    height: 100vh;
+} */
+
+/* NOTICE: the order css code matters*/
+
+@media screen and (min-width: 2000px) {
+   body {
+       width: 60%;
+    }
+    
+}
+
+
+@media screen and (max-width: 980px) {
+/* code */
+
+}
+@media screen and (max-width: 650px) {
+    /* #wrapper {
+        height: 50vh;
+    }
+
+    }
+     */
+    
+/* mobile device: iphone, android */
+@media screen and (max-width: 480px) {
+
+}
+
